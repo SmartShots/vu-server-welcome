@@ -1,10 +1,10 @@
 {
-  "Name": "vu-welcome-screen",
-  "Description": "Displays a welcome screen for joining player",
-  "Version": "1.0.0",
+  "Name": "vu-server-welcome",
+  "Description": "Displays a configurable server welcome screen to joining players.",
+  "Version": "0.0.1",
   "HasVeniceEXT": true,
   "HasWebUI": true,
-  "Authors": [ "turbopasi" ],
+  "Authors": [ "SmartShots" ],
   "Dependencies": {
     "veniceext": "^1.0.0"
   }
