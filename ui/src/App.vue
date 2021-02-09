@@ -32,17 +32,6 @@
           {{ tab.label }}
         </div>
         <div style="flex:1"></div>
-        <div
-          class="tab-menu-button"
-          :style="{
-            width       : config.buttonWidth + 'px',
-            borderColor : hexToRgbaString(config.buttonsBorderColor , config.buttonsBorderOpacity),
-            background  : hexToRgbaString(config.buttonsBackgroundColor, config.buttonsBackgroundOpacity),
-            color       : hexToRgbaString(config.buttonsTextColor, config.buttonsTextOpacity)
-          }"
-          @click="closeWelcomeScreen">
-          {{ config.closeButtonText }}
-        </div>
       </div>
 
       <!--                       -->
@@ -58,6 +47,17 @@
         <div class="htmlviewer"  v-html="config.tabs[activeTab] ? config.tabs[activeTab].text : ''"></div>
       </div>
 
+    <div
+      class="tab-menu-button"
+      :style="{
+        width       : config.buttonWidth + 'px',
+        borderColor : hexToRgbaString(config.buttonsBorderColor , config.buttonsBorderOpacity),
+        background  : hexToRgbaString(config.buttonsBackgroundColor, config.buttonsBackgroundOpacity),
+        color       : hexToRgbaString(config.buttonsTextColor, config.buttonsTextOpacity)
+      }"
+      @click="closeWelcomeScreen">
+      {{ config.closeButtonText }}
+    </div>
     </div>
   </div>
 </template>
