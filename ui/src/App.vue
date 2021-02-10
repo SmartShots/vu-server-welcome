@@ -148,9 +148,18 @@ export default {
   padding : 0;
 }
 
-/* body {
-  background : url('./assets/bg.jpg')
-} */
+body::after {
+    content: "";
+    background : url('./assets/bg.png');
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
 
 #app {
   font-family: 'Blinker';
