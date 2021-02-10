@@ -8,3 +8,5 @@ See original MOD for existing features and configuration, my current additions t
 1 - Changed the size/position of the 'CLOSE' button as it was causing interference with the underlying BF 3 UI.
 
 2 - Added a subtle background texture behind the welcome screen UI to further separate it from the underlying BF 3 UI.
+
+I have also removed the scrollbar altogether.
